@@ -31,7 +31,7 @@ def formarNumeroInverso (numP1,numP2,numP3):
     '''
     Funcionalidad: Invertir los digitos de entrada
     Entradas: numP1,numP2,numP3 de numeros validados por la funcion formarNumInvValid
-    Salidas: numSalidaTot es el numero invertido de ("numP1"+"numP2"+"numP3")
+    Salidas: numSalidaTot es el numero inverso de ("numP1"+"numP2"+"numP3")
     '''
     numTot=0
     miDigit=0
@@ -184,8 +184,9 @@ def obtenerSumatoria (numP1):
     numSal=0
     cont=1
     while cont <= numP1:
-        numSal)+=cont**2
-        cont+=1
+        if cont <= numP1:
+            numSal=(numSal)+(cont**2)
+            cont+=1
     return numSal
 
 def obtenerSumValid (numP1):

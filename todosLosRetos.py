@@ -29,3 +29,4 @@ print('Reto 7 invertirNúmero' , invertirNumValid (num0))
 
 
 
+  
